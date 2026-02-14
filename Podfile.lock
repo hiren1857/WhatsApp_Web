@@ -1,0 +1,36 @@
+PODS:
+  - Google-Mobile-Ads-SDK (12.9.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleUserMessagingPlatform (3.0.0)
+  - IQKeyboardManager (6.5.19)
+  - lottie-ios (4.5.2)
+  - ProgressHUD (14.1.1)
+  - SkeletonView (1.30.4)
+
+DEPENDENCIES:
+  - Google-Mobile-Ads-SDK
+  - IQKeyboardManager
+  - lottie-ios
+  - ProgressHUD
+  - SkeletonView
+
+SPEC REPOS:
+  trunk:
+    - Google-Mobile-Ads-SDK
+    - GoogleUserMessagingPlatform
+    - IQKeyboardManager
+    - lottie-ios
+    - ProgressHUD
+    - SkeletonView
+
+SPEC CHECKSUMS:
+  Google-Mobile-Ads-SDK: 36cce7d8dc1b615145d02491c8bf5640ef854e7c
+  GoogleUserMessagingPlatform: f8d0cdad3ca835406755d0a69aa634f00e76d576
+  IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
+  lottie-ios: 96784afc26ea031d3e2b6cae342a4b8915072489
+  ProgressHUD: abb9136ae23c85204236828562cb9a8ec98efb44
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+
+PODFILE CHECKSUM: d4a5682dd98603e35966625660f224087ad5f103
+
+COCOAPODS: 1.16.2

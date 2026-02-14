@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0411F95D2C16C18B00FEA757 /* QuotesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411F95C2C16C18B00FEA757 /* QuotesVC.swift */; };
+		0411F9602C16F69600FEA757 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411F95F2C16F69600FEA757 /* Utils.swift */; };
+		0411F9622C16F6DF00FEA757 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411F9612C16F6DF00FEA757 /* Constants.swift */; };
+		0411F9672C16FEF100FEA757 /* TextToEmojiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411F9662C16FEF100FEA757 /* TextToEmojiVC.swift */; };
+		041497132C13029F009B9469 /* UITextView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041497122C13029F009B9469 /* UITextView+Ext.swift */; };
+		041497162C132643009B9469 /* TextToAlphabetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041497152C132643009B9469 /* TextToAlphabetVC.swift */; };
+		042FACA92C2FC25700C9EA34 /* NativeAdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FACA72C2FC25700C9EA34 /* NativeAdManager.swift */; };
+		042FACAA2C2FC25700C9EA34 /* NativeAdsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042FACA82C2FC25700C9EA34 /* NativeAdsView.xib */; };
+		04889A862C18171800980894 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04889A852C18171700980894 /* Quotes.swift */; };
+		04889A892C18252200980894 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04889A882C18252200980894 /* WebVC.swift */; };
+		04889A8C2C1841CC00980894 /* QrGeneratorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04889A8B2C1841CC00980894 /* QrGeneratorVC.swift */; };
+		04889A8E2C185EEE00980894 /* AddCodeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04889A8D2C185EEE00980894 /* AddCodeDetailVC.swift */; };
+		04889A902C186EA300980894 /* CreateCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04889A8F2C186EA300980894 /* CreateCodeVC.swift */; };
+		048ACD592C2AC23A00AB05CE /* NoPasteTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048ACD582C2AC23A00AB05CE /* NoPasteTextView.swift */; };
+		048BDB3C2C33B998008C9C84 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048BDB3B2C33B998008C9C84 /* Device.swift */; };
+		04A6F7962C29516B001D0D09 /* SettingVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6F7952C29516B001D0D09 /* SettingVc.swift */; };
+		04A6F7982C296F17001D0D09 /* NoPasteTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6F7972C296F17001D0D09 /* NoPasteTextField.swift */; };
+		04B883682C1D6F9600C818C6 /* SecondPremiumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B883672C1D6F9600C818C6 /* SecondPremiumVC.swift */; };
+		04B8836A2C1D72C600C818C6 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B883692C1D72C600C818C6 /* UIView+Ext.swift */; };
+		04B8836C2C1DB1BE00C818C6 /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8836B2C1DB1BE00C818C6 /* UIButton+Ext.swift */; };
+		04C481A62C2E64B5007BF044 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C481A52C2E64B5007BF044 /* String+Ext.swift */; };
+		04CB65DF2C1AB6E300AA1F98 /* History_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB65DE2C1AB6E300AA1F98 /* History_Data.swift */; };
+		04CB65E22C1AD3C700AA1F98 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB65E12C1AD3C700AA1F98 /* DataManager.swift */; };
+		04CB65E42C1AD79B00AA1F98 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB65E32C1AD79B00AA1F98 /* Date+Extension.swift */; };
+		04CB65E62C1AEA6A00AA1F98 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB65E52C1AEA6A00AA1F98 /* HistoryVC.swift */; };
+		04CC98382C1FFD9C003C8479 /* PremiumPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC98372C1FFD9C003C8479 /* PremiumPopUpVC.swift */; };
+		04CC983A2C2033FC003C8479 /* GiiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC98392C2033FC003C8479 /* GiiftVC.swift */; };
+		04CC983D2C204601003C8479 /* GiftAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 04CC983C2C204601003C8479 /* GiftAnimation.json */; };
+		04CE34442C16B56C007C937A /* CaptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE34432C16B56C007C937A /* CaptionVC.swift */; };
+		04D3A0D52C217AF5002D7364 /* LodingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D3A0D42C217AF5002D7364 /* LodingButton.swift */; };
+		04D46DB92C116B0200C5B6C3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D46DB82C116B0200C5B6C3 /* TabBarController.swift */; };
+		04D46DBC2C116EB200C5B6C3 /* ToolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D46DBB2C116EB200C5B6C3 /* ToolVC.swift */; };
+		04D46DBF2C11BB2B00C5B6C3 /* RandomGeneratorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D46DBE2C11BB2B00C5B6C3 /* RandomGeneratorVC.swift */; };
+		04D7AB602C12EE31001078F5 /* TextRepeaterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7AB5F2C12EE31001078F5 /* TextRepeaterVC.swift */; };
+		04DF76912C1C50C9007C0EFC /* FirstPremiumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF76902C1C50C9007C0EFC /* FirstPremiumVC.swift */; };
+		04F50C6E2C1063680047A808 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F50C6D2C1063680047A808 /* AppDelegate.swift */; };
+		04F50C702C1063680047A808 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F50C6F2C1063680047A808 /* SceneDelegate.swift */; };
+		04F50C752C1063680047A808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F50C732C1063680047A808 /* Main.storyboard */; };
+		04F50C782C1063680047A808 /* History.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04F50C762C1063680047A808 /* History.xcdatamodeld */; };
+		04F50C7A2C1063690047A808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F50C792C1063690047A808 /* Assets.xcassets */; };
+		04F50C7D2C1063690047A808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F50C7B2C1063690047A808 /* LaunchScreen.storyboard */; };
+		04F50C8B2C1074920047A808 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F50C8A2C1074920047A808 /* Onboarding.storyboard */; };
+		04F50C8F2C1075A70047A808 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F50C8E2C1075A70047A808 /* OnboardingVC.swift */; };
+		04F50C932C107EE60047A808 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F50C912C107EE60047A808 /* UIViewController+Ext.swift */; };
+		04F50C942C107EE60047A808 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F50C922C107EE60047A808 /* UIColor+Ext.swift */; };
+		04FE90BC2C228A1600A72B77 /* EmojiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE90BB2C228A1600A72B77 /* EmojiTextField.swift */; };
+		52BBBB2C2E55C9A9001805ED /* AdMob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BBBB2B2E55C9A9001805ED /* AdMob.swift */; };
+		A06B928FD8A98D649F911A49 /* Pods_WhatsApp_Web.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E47908529B2FC4B685E621 /* Pods_WhatsApp_Web.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0411F95C2C16C18B00FEA757 /* QuotesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesVC.swift; sourceTree = "<group>"; };
+		0411F95F2C16F69600FEA757 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		0411F9612C16F6DF00FEA757 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0411F9662C16FEF100FEA757 /* TextToEmojiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToEmojiVC.swift; sourceTree = "<group>"; };
+		041497122C13029F009B9469 /* UITextView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Ext.swift"; sourceTree = "<group>"; };
+		041497152C132643009B9469 /* TextToAlphabetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToAlphabetVC.swift; sourceTree = "<group>"; };
+		042FACA72C2FC25700C9EA34 /* NativeAdManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeAdManager.swift; sourceTree = "<group>"; };
+		042FACA82C2FC25700C9EA34 /* NativeAdsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeAdsView.xib; sourceTree = "<group>"; };
+		04889A852C18171700980894 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		04889A882C18252200980894 /* WebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
+		04889A8B2C1841CC00980894 /* QrGeneratorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrGeneratorVC.swift; sourceTree = "<group>"; };
+		04889A8D2C185EEE00980894 /* AddCodeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCodeDetailVC.swift; sourceTree = "<group>"; };
+		04889A8F2C186EA300980894 /* CreateCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCodeVC.swift; sourceTree = "<group>"; };
+		048ACD582C2AC23A00AB05CE /* NoPasteTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoPasteTextView.swift; sourceTree = "<group>"; };
+		048BDB3B2C33B998008C9C84 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		04A6F7952C29516B001D0D09 /* SettingVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVc.swift; sourceTree = "<group>"; };
+		04A6F7972C296F17001D0D09 /* NoPasteTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoPasteTextField.swift; sourceTree = "<group>"; };
+		04B883672C1D6F9600C818C6 /* SecondPremiumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPremiumVC.swift; sourceTree = "<group>"; };
+		04B883692C1D72C600C818C6 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		04B8836B2C1DB1BE00C818C6 /* UIButton+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
+		04C481A52C2E64B5007BF044 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		04CB65DE2C1AB6E300AA1F98 /* History_Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History_Data.swift; sourceTree = "<group>"; };
+		04CB65E12C1AD3C700AA1F98 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		04CB65E32C1AD79B00AA1F98 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		04CB65E52C1AEA6A00AA1F98 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		04CC98372C1FFD9C003C8479 /* PremiumPopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumPopUpVC.swift; sourceTree = "<group>"; };
+		04CC98392C2033FC003C8479 /* GiiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiiftVC.swift; sourceTree = "<group>"; };
+		04CC983C2C204601003C8479 /* GiftAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GiftAnimation.json; sourceTree = "<group>"; };
+		04CE34432C16B56C007C937A /* CaptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionVC.swift; sourceTree = "<group>"; };
+		04D3A0D42C217AF5002D7364 /* LodingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodingButton.swift; sourceTree = "<group>"; };
+		04D46DB82C116B0200C5B6C3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		04D46DBB2C116EB200C5B6C3 /* ToolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolVC.swift; sourceTree = "<group>"; };
+		04D46DBE2C11BB2B00C5B6C3 /* RandomGeneratorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGeneratorVC.swift; sourceTree = "<group>"; };
+		04D7AB5F2C12EE31001078F5 /* TextRepeaterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRepeaterVC.swift; sourceTree = "<group>"; };
+		04DF76902C1C50C9007C0EFC /* FirstPremiumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPremiumVC.swift; sourceTree = "<group>"; };
+		04F50C6A2C1063680047A808 /* WhatsApp Web.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhatsApp Web.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F50C6D2C1063680047A808 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04F50C6F2C1063680047A808 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04F50C742C1063680047A808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F50C772C1063680047A808 /* WhatsApp_Web.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhatsApp_Web.xcdatamodel; sourceTree = "<group>"; };
+		04F50C792C1063690047A808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F50C7C2C1063690047A808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F50C7E2C1063690047A808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F50C8A2C1074920047A808 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		04F50C8E2C1075A70047A808 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; usesTabs = 0; };
+		04F50C912C107EE60047A808 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		04F50C922C107EE60047A808 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		04FE90BB2C228A1600A72B77 /* EmojiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTextField.swift; sourceTree = "<group>"; };
+		25E47908529B2FC4B685E621 /* Pods_WhatsApp_Web.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsApp_Web.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE2FBDCF6959C79C165E8B2 /* Pods-WhatsApp Web.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsApp Web.debug.xcconfig"; path = "Target Support Files/Pods-WhatsApp Web/Pods-WhatsApp Web.debug.xcconfig"; sourceTree = "<group>"; };
+		52BBBB2B2E55C9A9001805ED /* AdMob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMob.swift; sourceTree = "<group>"; };
+		C23FB9F50FC820F88492A4E2 /* Pods-WhatsApp Web.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsApp Web.release.xcconfig"; path = "Target Support Files/Pods-WhatsApp Web/Pods-WhatsApp Web.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F50C672C1063680047A808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06B928FD8A98D649F911A49 /* Pods_WhatsApp_Web.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0411F95E2C16F68300FEA757 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0411F95F2C16F69600FEA757 /* Utils.swift */,
+				0411F9612C16F6DF00FEA757 /* Constants.swift */,
+				048BDB3B2C33B998008C9C84 /* Device.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		0411F9632C16FDC200FEA757 /* TextToEmoji */ = {
+			isa = PBXGroup;
+			children = (
+				0411F9662C16FEF100FEA757 /* TextToEmojiVC.swift */,
+			);
+			path = TextToEmoji;
+			sourceTree = "<group>";
+		};
+		041497142C1325BD009B9469 /* TextToAlphabetVC */ = {
+			isa = PBXGroup;
+			children = (
+				041497152C132643009B9469 /* TextToAlphabetVC.swift */,
+			);
+			path = TextToAlphabetVC;
+			sourceTree = "<group>";
+		};
+		042601D92C32CC9F00D0CC0D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				04F50C6D2C1063680047A808 /* AppDelegate.swift */,
+				04F50C6F2C1063680047A808 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		042FACA52C2FC23000C9EA34 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				042FACA62C2FC25700C9EA34 /* NativeAd */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		042FACA62C2FC25700C9EA34 /* NativeAd */ = {
+			isa = PBXGroup;
+			children = (
+				52BBBB2B2E55C9A9001805ED /* AdMob.swift */,
+				042FACA72C2FC25700C9EA34 /* NativeAdManager.swift */,
+				042FACA82C2FC25700C9EA34 /* NativeAdsView.xib */,
+			);
+			path = NativeAd;
+			sourceTree = "<group>";
+		};
+		04889A872C1824F800980894 /* WebVC */ = {
+			isa = PBXGroup;
+			children = (
+				04889A882C18252200980894 /* WebVC.swift */,
+			);
+			path = WebVC;
+			sourceTree = "<group>";
+		};
+		04889A8A2C18412600980894 /* QrGeneratorVC */ = {
+			isa = PBXGroup;
+			children = (
+				04CB65E52C1AEA6A00AA1F98 /* HistoryVC.swift */,
+				04889A8B2C1841CC00980894 /* QrGeneratorVC.swift */,
+				04889A8D2C185EEE00980894 /* AddCodeDetailVC.swift */,
+				04889A8F2C186EA300980894 /* CreateCodeVC.swift */,
+			);
+			path = QrGeneratorVC;
+			sourceTree = "<group>";
+		};
+		04A6F7942C29514C001D0D09 /* SettingVc */ = {
+			isa = PBXGroup;
+			children = (
+				04A6F7952C29516B001D0D09 /* SettingVc.swift */,
+			);
+			path = SettingVc;
+			sourceTree = "<group>";
+		};
+		04AF46972C2BC15200F59C04 /* CoustomView */ = {
+			isa = PBXGroup;
+			children = (
+				04D3A0D42C217AF5002D7364 /* LodingButton.swift */,
+				04FE90BB2C228A1600A72B77 /* EmojiTextField.swift */,
+				04A6F7972C296F17001D0D09 /* NoPasteTextField.swift */,
+				048ACD582C2AC23A00AB05CE /* NoPasteTextView.swift */,
+			);
+			path = CoustomView;
+			sourceTree = "<group>";
+		};
+		04CB65DD2C1AB6C000AA1F98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04CB65DE2C1AB6E300AA1F98 /* History_Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04CB65E02C1AD38900AA1F98 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				04CB65E12C1AD3C700AA1F98 /* DataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		04CC983B2C2045D4003C8479 /* LottieAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				04CC983C2C204601003C8479 /* GiftAnimation.json */,
+			);
+			path = LottieAnimation;
+			sourceTree = "<group>";
+		};
+		04CE34422C16B53D007C937A /* CaptionVC */ = {
+			isa = PBXGroup;
+			children = (
+				04CE34432C16B56C007C937A /* CaptionVC.swift */,
+				0411F95C2C16C18B00FEA757 /* QuotesVC.swift */,
+			);
+			path = CaptionVC;
+			sourceTree = "<group>";
+		};
+		04D46DBA2C116E9200C5B6C3 /* ToolVC */ = {
+			isa = PBXGroup;
+			children = (
+				04D46DBB2C116EB200C5B6C3 /* ToolVC.swift */,
+				04D46DBD2C11BABB00C5B6C3 /* RandomGeneratorVC */,
+				04D7AB5E2C12EDF0001078F5 /* TextRepeaterVC */,
+				0411F9632C16FDC200FEA757 /* TextToEmoji */,
+				041497142C1325BD009B9469 /* TextToAlphabetVC */,
+				04CE34422C16B53D007C937A /* CaptionVC */,
+				04889A8A2C18412600980894 /* QrGeneratorVC */,
+			);
+			path = ToolVC;
+			sourceTree = "<group>";
+		};
+		04D46DBD2C11BABB00C5B6C3 /* RandomGeneratorVC */ = {
+			isa = PBXGroup;
+			children = (
+				04D46DBE2C11BB2B00C5B6C3 /* RandomGeneratorVC.swift */,
+			);
+			path = RandomGeneratorVC;
+			sourceTree = "<group>";
+		};
+		04D7AB5E2C12EDF0001078F5 /* TextRepeaterVC */ = {
+			isa = PBXGroup;
+			children = (
+				04D7AB5F2C12EE31001078F5 /* TextRepeaterVC.swift */,
+			);
+			path = TextRepeaterVC;
+			sourceTree = "<group>";
+		};
+		04DF768F2C1C508D007C0EFC /* PremiumVC */ = {
+			isa = PBXGroup;
+			children = (
+				04DF76902C1C50C9007C0EFC /* FirstPremiumVC.swift */,
+				04B883672C1D6F9600C818C6 /* SecondPremiumVC.swift */,
+				04CC98372C1FFD9C003C8479 /* PremiumPopUpVC.swift */,
+				04CC98392C2033FC003C8479 /* GiiftVC.swift */,
+			);
+			path = PremiumVC;
+			sourceTree = "<group>";
+		};
+		04F50C612C1063680047A808 = {
+			isa = PBXGroup;
+			children = (
+				04F50C6C2C1063680047A808 /* WhatsApp Web */,
+				04F50C6B2C1063680047A808 /* Products */,
+				C3F25A48A980DB7BCEC12118 /* Pods */,
+				FCC7684456E3E5B878D90885 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04F50C6B2C1063680047A808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F50C6A2C1063680047A808 /* WhatsApp Web.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F50C6C2C1063680047A808 /* WhatsApp Web */ = {
+			isa = PBXGroup;
+			children = (
+				042601D92C32CC9F00D0CC0D /* Application */,
+				0411F95E2C16F68300FEA757 /* Library */,
+				042FACA52C2FC23000C9EA34 /* Ads */,
+				04CC983B2C2045D4003C8479 /* LottieAnimation */,
+				04AF46972C2BC15200F59C04 /* CoustomView */,
+				04F50C902C107EE60047A808 /* Extension */,
+				04F50C892C1066D60047A808 /* CoreData */,
+				04F50C852C1063EF0047A808 /* Controllers */,
+				04F50C872C1064650047A808 /* Storyboard */,
+				04F50C862C1064320047A808 /* Resources */,
+				04F50C7E2C1063690047A808 /* Info.plist */,
+			);
+			path = "WhatsApp Web";
+			sourceTree = "<group>";
+		};
+		04F50C852C1063EF0047A808 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04F50C8D2C1074D40047A808 /* Onboarding */,
+				04F50C8C2C1074CA0047A808 /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04F50C862C1064320047A808 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04F50C792C1063690047A808 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04F50C872C1064650047A808 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				04F50C7B2C1063690047A808 /* LaunchScreen.storyboard */,
+				04F50C8A2C1074920047A808 /* Onboarding.storyboard */,
+				04F50C732C1063680047A808 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		04F50C892C1066D60047A808 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				04F50C762C1063680047A808 /* History.xcdatamodeld */,
+				04CB65DD2C1AB6C000AA1F98 /* Model */,
+				04CB65E02C1AD38900AA1F98 /* DataManager */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		04F50C8C2C1074CA0047A808 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04D46DB82C116B0200C5B6C3 /* TabBarController.swift */,
+				04D46DBA2C116E9200C5B6C3 /* ToolVC */,
+				04889A872C1824F800980894 /* WebVC */,
+				04A6F7942C29514C001D0D09 /* SettingVc */,
+				04DF768F2C1C508D007C0EFC /* PremiumVC */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		04F50C8D2C1074D40047A808 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				04F50C8E2C1075A70047A808 /* OnboardingVC.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		04F50C902C107EE60047A808 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				04F50C912C107EE60047A808 /* UIViewController+Ext.swift */,
+				04F50C922C107EE60047A808 /* UIColor+Ext.swift */,
+				041497122C13029F009B9469 /* UITextView+Ext.swift */,
+				04CB65E32C1AD79B00AA1F98 /* Date+Extension.swift */,
+				04B8836B2C1DB1BE00C818C6 /* UIButton+Ext.swift */,
+				04B883692C1D72C600C818C6 /* UIView+Ext.swift */,
+				04C481A52C2E64B5007BF044 /* String+Ext.swift */,
+				04889A852C18171700980894 /* Quotes.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C3F25A48A980DB7BCEC12118 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2FBDCF6959C79C165E8B2 /* Pods-WhatsApp Web.debug.xcconfig */,
+				C23FB9F50FC820F88492A4E2 /* Pods-WhatsApp Web.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCC7684456E3E5B878D90885 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25E47908529B2FC4B685E621 /* Pods_WhatsApp_Web.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F50C692C1063680047A808 /* WhatsApp Web */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F50C812C1063690047A808 /* Build configuration list for PBXNativeTarget "WhatsApp Web" */;
+			buildPhases = (
+				600D008070E5BFC6F7D88A45 /* [CP] Check Pods Manifest.lock */,
+				04F50C662C1063680047A808 /* Sources */,
+				04F50C672C1063680047A808 /* Frameworks */,
+				04F50C682C1063680047A808 /* Resources */,
+				8AA0238EA337C3A96221CCF9 /* [CP] Embed Pods Frameworks */,
+				F5EF0376C6609E5A9E6C10B7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WhatsApp Web";
+			productName = "WhatsApp Web";
+			productReference = 04F50C6A2C1063680047A808 /* WhatsApp Web.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F50C622C1063680047A808 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					04F50C692C1063680047A808 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 04F50C652C1063680047A808 /* Build configuration list for PBXProject "WhatsApp Web" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F50C612C1063680047A808;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 04F50C6B2C1063680047A808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F50C692C1063680047A808 /* WhatsApp Web */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F50C682C1063680047A808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F50C7D2C1063690047A808 /* LaunchScreen.storyboard in Resources */,
+				04F50C7A2C1063690047A808 /* Assets.xcassets in Resources */,
+				042FACAA2C2FC25700C9EA34 /* NativeAdsView.xib in Resources */,
+				04F50C752C1063680047A808 /* Main.storyboard in Resources */,
+				04CC983D2C204601003C8479 /* GiftAnimation.json in Resources */,
+				04F50C8B2C1074920047A808 /* Onboarding.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		600D008070E5BFC6F7D88A45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatsApp Web-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AA0238EA337C3A96221CCF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsApp Web/Pods-WhatsApp Web-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsApp Web/Pods-WhatsApp Web-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatsApp Web/Pods-WhatsApp Web-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5EF0376C6609E5A9E6C10B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsApp Web/Pods-WhatsApp Web-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsApp Web/Pods-WhatsApp Web-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatsApp Web/Pods-WhatsApp Web-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F50C662C1063680047A808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CC98382C1FFD9C003C8479 /* PremiumPopUpVC.swift in Sources */,
+				04CB65E42C1AD79B00AA1F98 /* Date+Extension.swift in Sources */,
+				52BBBB2C2E55C9A9001805ED /* AdMob.swift in Sources */,
+				04F50C6E2C1063680047A808 /* AppDelegate.swift in Sources */,
+				04CB65E22C1AD3C700AA1F98 /* DataManager.swift in Sources */,
+				04F50C942C107EE60047A808 /* UIColor+Ext.swift in Sources */,
+				048BDB3C2C33B998008C9C84 /* Device.swift in Sources */,
+				04DF76912C1C50C9007C0EFC /* FirstPremiumVC.swift in Sources */,
+				04B8836C2C1DB1BE00C818C6 /* UIButton+Ext.swift in Sources */,
+				04F50C8F2C1075A70047A808 /* OnboardingVC.swift in Sources */,
+				04D7AB602C12EE31001078F5 /* TextRepeaterVC.swift in Sources */,
+				04CB65DF2C1AB6E300AA1F98 /* History_Data.swift in Sources */,
+				041497132C13029F009B9469 /* UITextView+Ext.swift in Sources */,
+				0411F9602C16F69600FEA757 /* Utils.swift in Sources */,
+				04F50C782C1063680047A808 /* History.xcdatamodeld in Sources */,
+				048ACD592C2AC23A00AB05CE /* NoPasteTextView.swift in Sources */,
+				04889A8E2C185EEE00980894 /* AddCodeDetailVC.swift in Sources */,
+				04CB65E62C1AEA6A00AA1F98 /* HistoryVC.swift in Sources */,
+				04A6F7982C296F17001D0D09 /* NoPasteTextField.swift in Sources */,
+				0411F9622C16F6DF00FEA757 /* Constants.swift in Sources */,
+				04889A902C186EA300980894 /* CreateCodeVC.swift in Sources */,
+				04B8836A2C1D72C600C818C6 /* UIView+Ext.swift in Sources */,
+				04889A862C18171800980894 /* Quotes.swift in Sources */,
+				04889A892C18252200980894 /* WebVC.swift in Sources */,
+				04CC983A2C2033FC003C8479 /* GiiftVC.swift in Sources */,
+				04CE34442C16B56C007C937A /* CaptionVC.swift in Sources */,
+				0411F95D2C16C18B00FEA757 /* QuotesVC.swift in Sources */,
+				04D46DBF2C11BB2B00C5B6C3 /* RandomGeneratorVC.swift in Sources */,
+				04889A8C2C1841CC00980894 /* QrGeneratorVC.swift in Sources */,
+				04D46DB92C116B0200C5B6C3 /* TabBarController.swift in Sources */,
+				04FE90BC2C228A1600A72B77 /* EmojiTextField.swift in Sources */,
+				04F50C932C107EE60047A808 /* UIViewController+Ext.swift in Sources */,
+				04D3A0D52C217AF5002D7364 /* LodingButton.swift in Sources */,
+				0411F9672C16FEF100FEA757 /* TextToEmojiVC.swift in Sources */,
+				04C481A62C2E64B5007BF044 /* String+Ext.swift in Sources */,
+				04B883682C1D6F9600C818C6 /* SecondPremiumVC.swift in Sources */,
+				042FACA92C2FC25700C9EA34 /* NativeAdManager.swift in Sources */,
+				04D46DBC2C116EB200C5B6C3 /* ToolVC.swift in Sources */,
+				04F50C702C1063680047A808 /* SceneDelegate.swift in Sources */,
+				04A6F7962C29516B001D0D09 /* SettingVc.swift in Sources */,
+				041497162C132643009B9469 /* TextToAlphabetVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04F50C732C1063680047A808 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F50C742C1063680047A808 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F50C7B2C1063690047A808 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F50C7C2C1063690047A808 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F50C7F2C1063690047A808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04F50C802C1063690047A808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F50C822C1063690047A808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE2FBDCF6959C79C165E8B2 /* Pods-WhatsApp Web.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BBHUT22K5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WhatsApp Web/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WA Web Tool";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WhatsApp-Web";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F50C832C1063690047A808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C23FB9F50FC820F88492A4E2 /* Pods-WhatsApp Web.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BBHUT22K5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WhatsApp Web/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WA Web Tool";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WhatsApp-Web";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F50C652C1063680047A808 /* Build configuration list for PBXProject "WhatsApp Web" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F50C7F2C1063690047A808 /* Debug */,
+				04F50C802C1063690047A808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F50C812C1063690047A808 /* Build configuration list for PBXNativeTarget "WhatsApp Web" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F50C822C1063690047A808 /* Debug */,
+				04F50C832C1063690047A808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04F50C762C1063680047A808 /* History.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04F50C772C1063680047A808 /* WhatsApp_Web.xcdatamodel */,
+			);
+			currentVersion = 04F50C772C1063680047A808 /* WhatsApp_Web.xcdatamodel */;
+			path = History.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04F50C622C1063680047A808 /* Project object */;
+}
